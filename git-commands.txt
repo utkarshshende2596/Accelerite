@@ -1,0 +1,57 @@
+ git config --global user.name "utkarsh shende"	//to add name
+
+ git config --global user.email "utkarsh.shende@persistent.co.in"	//to add mail
+
+ git config user.email(to check mail)
+ git config --list	//to check list of configuration
+ git config --global core.editor notepad
+
+ git init	//to check repository
+
+ git status
+ git add "file name"	(to add to staging area)
+
+ git commit -m "File1.txt is created with inital one statement"(to commit file -m=messege [it should be in simple present tense])
+
+ git add . (to add all file in current directory)
+
+ git commit -am "messge" (to skip add step and directly commit)
+ 
+ git log (to know about all the changes but all authors)
+
+ git log --oneline -n(to see changes in short -n for no. of changes)
+
+ git log --author="utkarsh"(to check commits by author)
+
+ git log --since="11/05/18"(to check commits from date)
+
+ git log --until="11/05/18"(to check commits from date)
+
+ git log --grep="change"(for patterns to see messge which contain change word)
+
+ git diff ( to know what changes are made in present file before commit)
+ 
+ git checkout 4f537a4 (to go to specific change)
+ git checkout master (to put head to the most recent change)
+
+ git branch (tells current branch)
+ git branch bug123 (create new branch)
+ git checkout bug123
+ git merge bug123
+ git branch -d bug123 (-d is safe delete(if there are some commits on branch it willl throw error while ,-D is force delete))
+	(To delete branch)
+ $ git checkout -b idea (creation and switch)
+
+ git log --oneline --graph --decorate
+
+ --remote
+ $ git remote add origin https://github.com/utkarshshende2596/Accelerite.git
+ $ git remote -v
+ $ git push -u origin master (to push to server)
+ $git pull (to pull from server)
+
+study by own
+-undo in git:
+-reset and revert:
+-rebase
+-git tag,git stash
