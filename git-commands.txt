@@ -55,3 +55,4 @@ study by own
 -reset and revert:
 -rebase
 -git tag,git stash
+-git fetch vs pull
